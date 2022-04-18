@@ -10,3 +10,10 @@ This lab uses Hyperledger Fabric as the underlying ledger technology to create a
 
 # Setup
 Please read [SETUP](SETUP.md)
+
+# Npm sill idealTree buildDeps Error
+
+npm config rm proxy
+npm config rm https-proxy
+npm config set registry http://registry.npmjs.org/
+npm install
